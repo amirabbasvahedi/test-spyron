@@ -1,0 +1,38 @@
+<svg width="555" height="450" viewBox="0 0 555 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- پس‌زمینه گرادیانت رنگی -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="555" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00BFFF"></stop>
+      <stop offset="1" stop-color="#1E90FF"></stop>
+    </linearGradient>
+
+    <!-- گرادیانت برای دایره اصلی GPS -->
+    <radialGradient id="gpsGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#00008B" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- پس‌زمینه -->
+  <rect width="555" height="450" fill="url(#bgGradient)" rx="20" ry="20"></rect>
+
+  <!-- دایره مرکزی (شبیه به ماهواره یا سیگنال) -->
+  <circle cx="277.5" cy="225" r="90" fill="url(#gpsGlow)"></circle>
+
+  <!-- دایره سفید داخلی -->
+  <circle cx="277.5" cy="225" r="70" fill="#E0F7FA"></circle>
+
+  <!-- آیکون GPS (یک پین مکان) -->
+  <path d="M277.5 160 C250 160 250 205 277.5 255 C305 205 305 160 277.5 160 Z" fill="#007ACC" stroke="#004A99" stroke-width="4"></path>
+  <circle cx="277.5" cy="195" r="15" fill="#00BFFF" stroke="#004A99" stroke-width="3"></circle>
+
+  <!-- متن نام شرکت -->
+  <text x="277.5" y="350" font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif" font-weight="700" font-size="40" fill="white" text-anchor="middle">
+    Spyron
+  </text>
+
+  <!-- متن شعار -->
+  <text x="277.5" y="400" font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif" font-weight="500" font-size="20" fill="#B0E0FF" text-anchor="middle">
+    Precision GPS Solutions
+  </text>
+</svg>
